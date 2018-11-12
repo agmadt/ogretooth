@@ -1,10 +1,14 @@
-import React from 'react'
-import Page from '../components/Page'
+import React from 'react';
+import Layout from '../components/Layout';
 
-export default class Counter extends React.Component {
+class Home extends React.Component {
+
   render () {
     return (
-      <Page title='Index Page' linkTo='/other' />
+      <Layout title=" - Home">
+      </Layout>
     )
   }
 }
+
+export default Home;

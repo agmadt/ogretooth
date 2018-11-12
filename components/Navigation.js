@@ -5,7 +5,7 @@ export default class Navigation extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="bg-red text-white">
+        <div className="bg-green text-white border-red border-b">
           <div className="container mx-auto w-3/5 clearfix">
             <div className="float-left w-3/5">
               <ul className="list-reset">
@@ -20,22 +20,22 @@ export default class Navigation extends Component {
               <ul className="list-reset float-right">
                 <li className="float-left">
                   <Link href="/browse">
-                    <a className="no-underline block text-white px-3 py-4 hover:bg-red-dark">Browse</a>
+                    <a className="no-underline block text-white px-3 py-4 hover:bg-green-dark">Browse</a>
                   </Link>
                 </li>
                 <li className="float-left">
                   <Link href="/category">
-                    <a className="no-underline block text-white px-3 py-4 hover:bg-red-dark">Category</a>
+                    <a className="no-underline block text-white px-3 py-4 hover:bg-green-dark">Category</a>
                   </Link>
                 </li>
                 <li className="float-left">
                   <Link href="/brand">
-                    <a className="no-underline block text-white px-3 py-4 hover:bg-red-dark">Brand</a>
+                    <a className="no-underline block text-white px-3 py-4 hover:bg-green-dark">Brand</a>
                   </Link>
                 </li>
                 <li className="float-left">
                   <Link href="/blog">
-                    <a className="no-underline block text-white px-3 py-4 hover:bg-red-dark">Blog</a>
+                    <a className="no-underline block text-white px-3 py-4 hover:bg-green-dark">Blog</a>
                   </Link>
                 </li>
                 <li className="float-left pl-4 py-4">

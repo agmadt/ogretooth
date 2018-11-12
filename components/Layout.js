@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React from 'react'
-import Navigation from './Navigation/Navigation'
+import Navigation from './Navigation'
+import Footer from './Footer'
 
 export default ({children, title}) => (
   <React.Fragment>
@@ -11,5 +12,7 @@ export default ({children, title}) => (
     <Navigation />
 
     { children }
+
+    <Footer />
   </React.Fragment>
 )
